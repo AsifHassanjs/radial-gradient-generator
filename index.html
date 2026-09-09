@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A professional real-time radial CSS gradient generator tool. Create, customize, and export radial background gradients instantly.">
+  <title>Radial-Gradient Generator|Asif Hassan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="bodyy">
+
+  <!-- Header Section go yatit -->
+  <header class="asif-header">
+    <h1>Radial-Gradient Generator</h1>
+    <p class="asif-header-subtitle">Design, customize, and export radial background gradients for your web pages.</p>
+  </header>
+
+  <!-- Main go yeteh peatha -->
+  <main> 
+    <div class="asif-instruction-box">
+      <h2>1. Color Customization</h2>
+      <p>Click any color tile below to randomize its color swatch, or use the button below to randomize all.</p>
+    </div>
+
+    <!-- Color  Buttons -->
+    <button class="button1" id="first">#5C91E5</button>
+    <button class="button1" id="second">#983FC6</button>
+    <button id="third" class="button1">#9F55D2</button>
+    <button id="fourth" class="button1">#AF64AA</button>
+
+    <!-- akuy random button-->
+    <button id="asif-random-all" class="button1 asif-random-all-btn">🎲 Randomize All Colors</button>
+
+    <div class="asif-instruction-box">
+      <h2>2. Advanced Layout Controls</h2>
+      <p>Configure the shape, spread extent, and epicenter position of your radial gradient.</p>
+    </div>
+
+    <!-- Control jysay shape wagaira -->
+    <div class="asif-controls-grid">
+      <select id="asif-shape-select" class="button1 asif-dropdown">
+        <option value="ellipse">Shape: Ellipse</option>
+        <option value="circle">Shape: Circle</option>
+      </select>
+
+      <select id="asif-extent-select" class="button1 asif-dropdown">
+        <option value="farthest-corner">Extent: Farthest Corner</option>
+        <option value="closest-side">Extent: Closest Side</option>
+        <option value="farthest-side">Extent: Farthest Side</option>
+        <option value="closest-corner">Extent: Closest Corner</option>
+      </select>
+
+      <select id="asif-position-select" class="button1 asif-dropdown">
+        <option value="center">Position: Center</option>
+        <option value="top">Position: Top</option>
+        <option value="bottom">Position: Bottom</option>
+        <option value="left">Position: Left</option>
+        <option value="right">Position: Right</option>
+        <option value="top left">Position: Top Left</option>
+        <option value="bottom right">Position: Bottom Right</option>
+      </select>
+    </div>
+  </main>
+
+  <!-- Footers -->
+  <footer>
+    <h2>You can copy code of this Gradient by clicking below</h2>
+    <div> 
+      <button id="copycode" class="asif-copy-btn">
+        radial-gradient(ellipse farthest-corner at center, rgb(92,145,229), rgb(152,63,198), rgb(159,85,210), rgb(175,100,170));
+      </button>
+    </div>
+    <!-- Copyright -->
+    <p class="asif-copyright">© 2026 Asif Hassan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
